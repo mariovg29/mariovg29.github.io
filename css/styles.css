@@ -21,17 +21,20 @@ body {
     background-color: #0d1d92;
     color: aliceblue;
 }
+.p{
+  float:right;
+}
 .brand span{
-  color: black;
+  color: cyan;
 }
 .menu{
   display: flex;
-  width: 50%;
+  width: 60%;
   justify-content: space-around;
 }
 
 .menu li{
-  list-style: none;
+  list-style:none;
 }
 
 .menu a{
@@ -42,5 +45,26 @@ body {
   color: aquamarine;
 }
 .menu a:hover{
-  background-color: aquamarine;
+  background-color: blue;
+}
+
+
+
+@media screen and (max-width:600px) {
+  
+  .menu{
+    width: 90%;
+  }
+  .navbar{
+    display:flow-root;
+  }
+}
+@media screen and (max-width:430px) {
+  
+  .menu{
+    width: 100%;
+  }
+  .navbar{
+    display:-moz-popup;
+  }
 }
