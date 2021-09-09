@@ -81,4 +81,7 @@ span{
   .navbar{
     display:-moz-popup;
   }
+  .main{
+    display: contents;
+  }
 }
