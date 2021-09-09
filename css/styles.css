@@ -63,6 +63,9 @@ h1{
 span{
   color: aqua;
 }
+p{
+  margin: 0 20px 0 0;
+}
 
 
 
@@ -86,6 +89,9 @@ span{
   
 }
 @media screen and (max-width:850px) {
+  .menu a{
+    font-size: 13px;
+  }
   .main{
     align-content: center;
     margin: 20px 20px;
@@ -102,11 +108,8 @@ span{
     width: 90vw;
     height: 90vh;
   }
-  
-    
-   
-  
-  
-  
+  h2{
+    text-size-adjust: 20 ;
+  }
 
 }
