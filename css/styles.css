@@ -15,9 +15,9 @@ body {
   justify-content: space-between;
   padding: 2em;
 }
-.wrapper{
+.wrapper, .portfolio{
     width: 100vw;
-    height: 100vh;
+    height: 64vh;
     background-color: #0d1d92;
     color: aliceblue;
 }
@@ -49,14 +49,18 @@ body {
   transition: ease-in .4s;
 }
 .main{
-  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left:  auto;
+  margin-right: auto;
   width: 90vw;
-  height: 90vh;
+  height: 60vh;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
   text-align: justify;
 }
+
 .main h1{
   font-size: 3em;
 }
@@ -109,11 +113,56 @@ body {
 }
 .divider{
   height: 5px;
-  width: 60px;
+  width: 300px;
   background-color: aqua;
   margin-top: 10px;
   margin-bottom: 2.5em;
 }
+.portfolio-headings{
+  width: 100vw;
+  padding: 3em;
+}
+.portfolio-headings h2{
+  font-size: 2em;
+}
+.portfolio .container{
+  width: 80vw;
+  height: 30vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  width: 300px;
+ }
+ .card_img{
+   width: 100%;
+   height: 150px;
+   background-image: url(../images/about\ me.jpeg);
+   background-size: contain ;
+ }
+ .card_title{
+   padding: 20px;
+ }
+ .card_project_links{
+   display: flex;
+   justify-content: space-evenly;
+ }
+ card_project_links a{
+   color: #fff;
+   text-decoration: none;
+ }
+ card_project_links i{
+   font-size: 1.5em;
+ }
+ .card.project_details{
+   display: flex;
+   justify-content: center;
+   margin: 1em;
+ }
+
+
 
 
 
