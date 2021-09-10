@@ -351,8 +351,11 @@ body {
   .portfolio-headings{
     padding: 1em;
   }
+  .contact_headings{
+    padding: 1em;
+  }
   .container-contact{
-    
+    padding: 1em;    
     display:flex; 
     align-items: center;    
    
@@ -360,11 +363,17 @@ body {
   .container-contact img{
     margin: 10px;    
     width: 30vw;
-    height: 20vh;
+    height: 30vh;
    
   }
   .contact-form{
-    padding: 1em;
+    width: 60vw;
+    padding: 5px;
+    margin: 5px;
+    align-self:flex-start;
+  }
+  .contact-form textarea, input, .btn_submit_contact{
+    width: 50vw;
   }
   
 
