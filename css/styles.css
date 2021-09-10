@@ -107,7 +107,7 @@ body {
   text-align: justify;
   font-weight:bolder;
 }
-.about-info h2{
+.about-info, .contact_section h2{
   font-size: 2em;
   color: #0d1d92;
 }
@@ -118,6 +118,7 @@ body {
   margin-top: 10px;
   margin-bottom: 2.5em;
 }
+
 .portfolio-headings{
   width: 100vw;
   padding: 3em;
@@ -135,6 +136,10 @@ body {
 }
 .card{
   width: 300px;
+  height: 370px;
+  background-color: #1c36f8;
+  border-radius: 15px;
+  margin: 1em;
   
  }
  .card_img{
@@ -151,19 +156,109 @@ body {
    display: flex;
    justify-content: space-evenly;
  }
- card_project_links a{
+ .card_project_links a{
    color: #fff;
    text-decoration: none;
  }
- card_project_links i{
+ .card_project_links i{
    font-size: 1.5em;
  }
- .card.project_details{
-   display: flex;
-   justify-content: center;
+ .card .project_details{
+   margin: 0 auto;
    margin: 1em;
-   
+   width: 70%;
  }
+ .card .project_details a{
+   text-decoration: none;
+   color: #0d1d92;
+   text-transform: uppercase;
+ }
+ .project_details_content{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   margin-top: 1em;
+
+ }
+ .container-section{
+   background: #0d1d92;
+   padding: 2em;
+   display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+ }
+ .contact_headings{
+   padding: 3em;
+   background: #0d1d92;
+ }
+ .contact_headings h2{
+   color: #fff;
+ }
+ .container-contact{
+   background: #0d1d92;
+   padding: 3em;
+   margin: 0 auto;
+ }
+ .container-contact img{
+   width: 650px;
+   height: 700px;
+   bottom: 0px;
+   opacity: 0.5;
+
+ }
+ .form-control{
+   display: flex;
+   flex-direction: column;
+   width: 30vw;
+   margin-top: 2em;
+ }
+ .form-control  input{
+   padding: 10px 20px;
+   margin-bottom: 1em;
+   background: none;
+   border: none;
+   border-bottom: 1px solid #fff;
+   color: #fff;
+ }
+ .form-control textarea{
+   height: 150px;
+   background: none;
+   color: #fff;
+   padding: 1.5em;
+   border: 1px solid #fff;
+ }
+ .footer{
+   background: #fff;
+   display: flex;
+   flex-direction: column;
+   color: #000;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 150px;
+ }
+ .footer-content h2{
+   text-align: center; 
+   font-size: 3.2em;
+ }
+ .footer-content h5{
+  font-size: 1em;
+  text-align: center; 
+}
+.sotial-networks{
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+}
+.sotial-networks i{
+  padding: 10px;
+  font-size: 2em;
+  color: #0d1d92;
+}
+
+ 
+ 
 
 
 
