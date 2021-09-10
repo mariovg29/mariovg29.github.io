@@ -286,6 +286,7 @@ body {
 
 
 
+
 @media screen and (max-width:600px) {
   
   .menu{
@@ -295,11 +296,11 @@ body {
     display:flow-root;
   }
   .card{
-  width: 100px;
+  width: 150vw;
   height: 170px;
   }
 }
-@media screen and (max-width:430px) {
+@media screen and (max-width:450px) {
   
   .menu{
     width: 100%;
@@ -307,6 +308,13 @@ body {
   .navbar{
     display:-moz-popup;
   }
+  .card{
+    width: 70px;
+    height: 170px;
+    }
+    .container{
+      display: block;
+    }
   
 }
 @media screen and (max-width:850px) {
@@ -340,7 +348,7 @@ body {
 
   }
   .card{
-  width: 150px;
+  width: 200px;
   height: 370px;
    
   }
