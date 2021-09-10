@@ -15,9 +15,9 @@ body {
   justify-content: space-between;
   padding: 2em;
 }
-.wrapper, .portfolio{
+.wrapper{
     width: 100vw;
-    height: 64vh;
+    height: 100vh;
     background-color: #0d1d92;
     color: aliceblue;
 }
@@ -54,7 +54,7 @@ body {
   margin-left:  auto;
   margin-right: auto;
   width: 90vw;
-  height: 60vh;
+  height: 90vh;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
@@ -85,7 +85,7 @@ body {
 }
 .main img{
   
-  height: 520px;
+  height: 500px;
   border: 7px solid aqua;
    
 }
@@ -102,7 +102,7 @@ body {
 }
 .about-info {
   grid-column: 5/10;
-  padding: 2em;
+  padding: 1.5em;
   color: #0d1d92;  
   text-align: justify;
   font-weight:bolder;
@@ -117,6 +117,12 @@ body {
   background-color: aqua;
   margin-top: 10px;
   margin-bottom: 2.5em;
+}
+.portfolio{
+  width: 100vw;
+  height: 70vh;
+  background-color: #0d1d92;
+  color: aliceblue;
 }
 
 .portfolio-headings{
@@ -188,23 +194,28 @@ body {
   align-items: center;
  }
  .contact_headings{
-   padding: 3em;
+   padding: 2em;
    background: #0d1d92;
  }
  .contact_headings h2{
    color: #fff;
  }
  .container-contact{
+   display: flex;
+   margin: 1em;
    background: #0d1d92;
    padding: 3em;
    margin: 0 auto;
  }
  .container-contact img{
-   width: 650px;
-   height: 700px;
+   width: 5000px;
+   height: 500px;
    bottom: 0px;
    opacity: 0.5;
-
+ }
+ .contact-form{
+   padding: 3em; 
+   margin: 0 auto;
  }
  .form-control{
    display: flex;
@@ -318,6 +329,12 @@ body {
     width: 40vw;
     height: 40vh;
 
+  }
+  .portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
   }
   
 

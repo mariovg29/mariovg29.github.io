@@ -18,16 +18,16 @@
                 <h2>M<span >V</span>G</h2>                
             </div>
             <ul class= "menu">
-                <li><a class="active" href="a">Home</a></li>
-                <li><a href="b">About </a></li>
-                <li><a href="c">Portfolio</a></li>
-                <li><a href="d">Contact</a></li>
+                <li><a class="active" href="#Home">Home</a></li>
+                <li><a href="#About">About </a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
            
                 
         </nav>
         </header>
-        <main class="main">
+        <main id="Home" class="main">
             <div class="info-content">
                 <h1>I'm<span> Mario</span> VG</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas minima excepturi a dolores quidem dolorem, doloremque porro quos ipsam, voluptatem dolor ea temporibus exercitationem consequuntur reprehenderit, rem ad labore possimus.</p>
@@ -39,7 +39,7 @@
         
         </main>
 
-        <div class="about">
+        <div id="About" class="about">
             <img src="./images/about me.jpeg" width="80%" height="80%">
         
             <div class="about-info">
@@ -51,7 +51,7 @@
 
             </div>
         </div>
-        <div class="portfolio">
+        <div id="Portfolio" class="portfolio">
             <div class="portfolio-headings">
                 <h2>My Portfolio</h2>
                 <div class="divider"></div>
@@ -154,7 +154,7 @@
                     </div>
                 </div>
         </div>   
-        <div class="contact_section">
+        <div id="Contact" class="contact_section">
             <div class="contact_headings">
                 <h2>Keep in Touch</h2>
                 <div class="divider"></div>
@@ -166,9 +166,10 @@
                 <div class="contact-form">
                     <h4>Send a message...</h4>
                     <div class="form-control">
-                        <input type="text" placeholder="name">
+                        <input type="text" placeholder="Name">
                         <input type="text" placeholder="Email">
-                        <textarea placeholder="Type your message here..." cols="30" rows="10"></textarea>
+                        <textarea placeholder="Type your message here..." cols="30" rows="10">
+                        </textarea>
                         <button class="btn_submit download-cv">
                             Send message </button>
                     </div>
