@@ -87,6 +87,7 @@ body {
 .main img{
   
   height: 500px;
+  width: 400px;
   border: 7px solid aqua;
    
 }
@@ -200,7 +201,8 @@ body {
  }
  .contact_headings{
    padding: 2em;
-   background: #191c32;
+   background: 
+   #191c32;
  }
  .contact_headings h2{
    color: #fff;
@@ -216,7 +218,7 @@ body {
    width: 5000px;
    height: 500px;
    bottom: 0px;
-   opacity: 0.5;
+   opacity: 0.4;
  }
  .contact-form{
    padding: 3em; 
