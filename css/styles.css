@@ -11,6 +11,7 @@ body {
   overflow-x: hidden;
 }
 .navbar{
+  
   display: flex;
   justify-content: space-between;
   padding: 2em;
@@ -39,7 +40,7 @@ body {
 .menu a{
   color: #fff;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 10px 15px;
 }
 .menu .active{
   color: aquamarine;
@@ -86,7 +87,7 @@ body {
 }
 .main img{
   
-  height: 500px;
+  height: 480px;
   width: 400px;
   border: 7px solid aqua;
    
@@ -115,7 +116,7 @@ body {
 }
 .divider{
   height: 5px;
-  width: 300px;
+  width: 250px;
   background-color: aqua;
   margin-top: 10px;
   margin-bottom: 2.5em;
@@ -308,7 +309,7 @@ body {
     width: 100%;
   }
   .navbar{
-    display:-moz-popup;
+    display:block;
   }
   .card{
     width: 70px;
